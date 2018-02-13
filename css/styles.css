@@ -1,0 +1,112 @@
+body {
+	background-image: url("../img/hockey-background.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	width: 100%;
+	/* Background pattern from Subtle Patterns */
+	background-image: url("../img/ice-background.png");
+}
+
+.header-content {
+	width: 90%;
+	display:block;
+	margin:0 auto;
+	padding: 10px 0;
+}
+
+.title {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.logo {
+	width:50px;
+	padding-right:5px;
+}
+
+h1 {
+	color: #091e33;
+	font-family: 'Shadows Into Light', cursive;
+	margin:0;
+}
+
+h2 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 32px;
+	letter-spacing: 3px;
+}
+
+nav {
+	padding: 10px 0;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 22px;
+	text-align:center;
+}
+
+nav a {
+	padding: 0 10px;
+	color:#091e33;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #5b8a18;
+}
+
+.photo {
+	width: 100%;
+	height: auto;
+}
+
+#about {
+	background-color: #091e33;
+	margin: 0;
+	color: #fff;
+	padding: 40px 0 60px 0;
+}
+
+.about-content {
+	width:70%;
+	margin: 0 auto;
+}
+
+#about h2 {
+	margin: 0;
+}
+
+#about p {
+	line-height: 1.8;
+}
+
+#menu {
+	/* Background pattern from Subtle Patterns */
+	background-image: url("../img/ice-background.png");
+	width: 100%;
+	margin: 0 auto;
+	height: 500px;
+	opacity: 0.95;
+}
+
+.menu-content {
+	width: 70%;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+	.header-content {
+		display:flex;
+		width:70%;
+		justify-content: space-between;
+		align-items:center;
+	}
+}
+
